@@ -6,3 +6,7 @@ def get_version():
 # Security patch applied
 def get_config():
     return {"debug": True}
+
+def get_status():
+    return "ok"
+
